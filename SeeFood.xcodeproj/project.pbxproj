@@ -13,6 +13,7 @@
 		3CE11A3724CDE54200D6ABC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE11A3524CDE54200D6ABC2 /* Main.storyboard */; };
 		3CE11A3924CDE54800D6ABC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE11A3824CDE54800D6ABC2 /* Assets.xcassets */; };
 		3CE11A3C24CDE54800D6ABC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE11A3A24CDE54800D6ABC2 /* LaunchScreen.storyboard */; };
+		3CE11A4424CDE64600D6ABC2 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CE11A4324CDE64600D6ABC2 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3CE11A3824CDE54800D6ABC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CE11A3B24CDE54800D6ABC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CE11A3D24CDE54800D6ABC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE11A4324CDE64600D6ABC2 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3CE11A3824CDE54800D6ABC2 /* Assets.xcassets */,
 				3CE11A3A24CDE54800D6ABC2 /* LaunchScreen.storyboard */,
 				3CE11A3D24CDE54800D6ABC2 /* Info.plist */,
+				3CE11A4324CDE64600D6ABC2 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CE11A3424CDE54200D6ABC2 /* ViewController.swift in Sources */,
+				3CE11A4424CDE64600D6ABC2 /* Inceptionv3.mlmodel in Sources */,
 				3CE11A3024CDE54100D6ABC2 /* AppDelegate.swift in Sources */,
 				3CE11A3224CDE54200D6ABC2 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Z5A22263G;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Z5A22263G;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
